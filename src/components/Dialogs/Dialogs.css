@@ -1,0 +1,21 @@
+.dialogs {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 2fr 10fr;
+  grid-template-columns: 2fr 10fr;
+}
+.dialogs-items {
+  padding: 1rem;
+}
+
+/* .dialogs {
+    border-bottom: 0.2rem solid #cedeebn;
+  }*/
+.messages {
+  padding: 1rem;
+}
+
+.nav-link-font {
+  font-family: serif;
+  width: 100%;
+}

@@ -1,0 +1,46 @@
+.responsive {
+    width: 100%;
+    height: auto;
+}
+.img__container {
+    height: auto;
+    margin-bottom: 4rem;
+}
+.user{
+    display: flex;
+    margin-bottom: 5rem;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -9rem;
+}    
+.info {
+      display: flex;
+      flex-direction: column;
+}
+
+.photo {
+      width: 10rem;
+      border: 0.2rem solid #929494;
+      align-self: center;
+      margin-bottom: 3rem;
+  }
+
+    .name {
+      font-size: 1.9rem;
+      line-height: 2.5rem;
+      font-weight: 400;
+      -moz-osx-font-smoothing: auto;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      align-self: center;
+    }
+
+    .description {
+        font-size: 1.3rem;
+        line-height: 2rem;
+        font-weight: 400;
+        -moz-osx-font-smoothing: auto;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        align-self: center;
+      }

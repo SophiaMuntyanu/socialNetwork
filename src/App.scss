@@ -1,0 +1,60 @@
+:root{
+   box-sizing: border-box;    
+}
+*,
+*::before,
+*::after{
+   box-sizing: inherit;
+   transition: .5s ease-in-out;
+}
+html{
+   font-size: 62.5%;
+}
+a{
+   text-decoration: none;
+}
+
+ul {
+   margin-left: 0; 
+   padding-left: 0;
+    
+   li {
+      list-style-type: none; 
+    }
+}
+.wrapper{
+   display: grid;
+   grid-template-rows: 6rem 1fr;
+   grid-template-columns: 2fr 10fr;
+   grid-template-areas: "h h"
+   "s c";
+   grid-gap: 1rem;
+   width: 120rem;
+   margin: 0 auto;
+   
+   /*.content{
+      grid-area: c;
+   }*/
+
+   .sidebar{
+      grid-area: s;
+   }
+
+   .header{
+      grid-area: h;
+  
+      img{
+          width: 2rem;
+      }
+   }
+
+   .dialogs {
+      grid-area: c;
+   }
+}
+/*класс-обертка для всех пунктов меню в Sidebar*/
+.wrapper-container {
+   grid-area: c;
+   background-color: #f8f9fa;
+   padding: 2rem;
+}

@@ -1,0 +1,45 @@
+.posts {
+  margin-top: 3rem;
+}
+.textarea{
+  display: block;
+  width: 100%;
+  padding: 0.2rem 0 0.1rem;
+  background: none;
+  border: none;
+  border-radius: 0;
+  outline: none;
+  box-shadow: none;
+  border-bottom: 1px solid #3F3F3F;
+  font-family: inherit;
+  font-size: 1.4rem;
+  color: #000000;
+  margin-bottom: 2rem;
+  height: 32px;
+  overflow: hidden;
+  resize: none;
+}
+.button{
+  margin-bottom: 1.5rem;
+  padding: 0.7em 1.25em;
+  border-radius: 0.41em;
+  display: inline-block;
+  vertical-align: top;
+  padding: 1.12em 2.1em;
+  background: #121212;
+  border: none;
+  cursor: pointer;
+  border-radius: 3em;
+  font-family: inherit;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1.1;
+  color: #ffffff;
+  transition: background-color 0.2s linear;
+  background-color: #0d6efd;
+  box-shadow: 0 7px 17px -10px rgb(42 95 231 / 30%);
+}
+.button:focus, .button:hover {
+  background-color: #055ee4;
+  text-decoration: none;
+}
